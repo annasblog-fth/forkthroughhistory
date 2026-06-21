@@ -7,14 +7,6 @@ A food blog exploring the cultural, historical, and ingredient origins of dishes
 
 🌐 **Live site:** https://annasblog-fth.github.io/forkthroughhistory/
 
-## About# Fork Through History
-
-A food blog exploring the cultural, historical, and ingredient origins of dishes from around the world — celebrating present holidays and the people behind them.
-
-> *"Scooping up festive recipes from around the world."*
-
-🌐 **Live site:** https://annasblog-fth.github.io/forkthroughhistory/
-
 ## About
 
 Fork Through History is a flavor dictionary — a food blog where every recipe focuses on the origin of the dish: culturally, historically, and through its ingredients. Published every major holiday, each entry explores a different country, a different era, and a different tradition.
