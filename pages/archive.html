@@ -1,115 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="All recipes in the Fork Through History archive." />
   <title>Recipe Archive — Fork Through History</title>
-  <meta name="description" content="All recipes in the Fork Through History archive.">
-  <link rel="icon" type="image/jpeg" href="../images/logo.jpg">
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
 
-<div id="page-transition" class="page-transition-overlay"></div>
-
-<!-- Back to Main -->
-<a href="../index.html" class="back-to-main" data-nav>
-  <span class="arrow">←</span> Main
-</a>
-
-<!-- Ticker Strip -->
-<div class="ticker-wrap">
-  <div class="ticker-inner">
-    <span class="ticker-item">Updates every major holiday <span class="dot">✦</span></span>
-    <span class="ticker-item">Journey through time and places from the comfort of your kitchen <span class="dot">✦</span></span>
-    <span class="ticker-item">More in the Recipe Archive <span class="dot">✦</span></span>
-    <span class="ticker-item">Updates every major holiday <span class="dot">✦</span></span>
-    <span class="ticker-item">Journey through time and places from the comfort of your kitchen <span class="dot">✦</span></span>
-    <span class="ticker-item">More in the Recipe Archive <span class="dot">✦</span></span>
+  <!-- ── Ticker ── -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      Updates every major holiday ✦ Journey through time and places from the comfort of your kitchen ✦ More in the Recipe Archive ✦ Updates every major holiday ✦ Journey through time and places from the comfort of your kitchen ✦ More in the Recipe Archive ✦
+    </div>
   </div>
-</div>
 
-<!-- Site Header -->
-<header class="site-header">
-  <div class="site-title">
-    <a href="../index.html" data-nav>Fork Through History</a>
-  </div>
+  <!-- ── Nav ── -->
   <nav class="site-nav">
-    <a href="archive.html" data-nav style="color: var(--accent);">Archive</a>
-    <a href="../index.html#about" data-nav>About</a>
-    <a href="mailto:annasblogfth@gmail.com">Contact</a>
+    <a class="nav-back" href="../index.html">← Main</a>
+    <a class="nav-logo" href="../index.html">
+      <img src="../images/logo.jpg" alt="Fork Through History Logo" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="archive.html">Archive</a></li>
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="mailto:annasblogfth@gmail.com">Contact</a></li>
+    </ul>
   </nav>
-  <img src="../images/logo.jpg" alt="Fork Through History Logo" class="site-logo" onerror="this.style.display='none'">
-</header>
 
-<hr class="divider">
+  <!-- ── Archive header ── -->
+  <section class="archive-header">
+    <p class="home-eyebrow">The Collection</p>
+    <h1>Recipe Archive</h1>
+    <p class="archive-subtitle">Every dish released — one per major holiday, each one a different country, a different era.</p>
+  </section>
 
-<!-- Archive Header -->
-<div class="archive-header">
-  <span class="eyebrow" style="font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 12px;">The Collection</span>
-  <h1>Recipe Archive</h1>
-  <p>Every dish released — one per major holiday, each one a different country, a different era.</p>
-</div>
+  <!-- ── Archive grid ── -->
+  <section class="archive-grid-section">
 
-<!-- Archive Grid -->
-<div class="archive-grid">
-
-  <!-- Recipe 1: Arroz con Pato -->
-  <a href="recipe-arroz-con-pato.html" class="recipe-card" data-nav>
-    <div class="card-img-wrap">
-      <div class="postage-stamp" style="height:100%;">
-        <div class="stamp-img-wrap" style="height:100%;">
-          <img src="../images/arroz-con-pato-hero.jpg" alt="Arroz con Pato — green cilantro rice with braised duck and salsa criolla" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </div>
+    <a class="archive-card" href="recipe-samay-baji.html">
+      <div class="archive-card-img-wrap">
+        <img src="../images/samay-baji-hero.jpg" alt="Samay Baji platter with achar, aalu, bodi, saag, and bhatmas, next to a bowl of chho" />
       </div>
-    </div>
-    <p class="card-date">Las Fiestas Patrias · July 2025</p>
-    <h3 class="card-title">Arroz con Pato</h3>
-    <p class="card-origin" style="font-style: italic;">Peru — Northern Peru (Chiclayo)</p>
-  </a>
-
-  <!-- Recipe 2: Coca de Sant Joan -->
-  <a href="recipe-coca.html" class="recipe-card" data-nav>
-    <div class="card-img-wrap">
-      <div class="postage-stamp" style="height:100%;">
-        <div class="stamp-img-wrap" style="height:100%;">
-          <img src="../images/coca-hero.jpg" alt="Coca de Sant Joan with caramelised pastry cream and toasted almonds" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Gai Jatra · Aug 2026</span>
+        <span class="archive-card-name">Samay Baji</span>
+        <span class="archive-card-origin">Nepal — Kathmandu Valley</span>
       </div>
-    </div>
-    <p class="card-date">Saint John's Eve · 2025</p>
-    <h3 class="card-title">Coca de Sant Joan</h3>
-    <p class="card-origin" style="font-style: italic;">Spain — Catalonia</p>
-  </a>
+    </a>
 
-  <!-- Recipe 3: Zongzi -->
-  <a href="recipe-zongzi.html" class="recipe-card" data-nav>
-    <div class="card-img-wrap">
-      <div class="postage-stamp" style="height:100%;">
-        <div class="stamp-img-wrap" style="height:100%;">
-          <img src="../images/zongzi-wrapped.jpg" alt="Freshly wrapped Zongzi" style="width:100%; height:100%; object-fit:cover; display:block;">
-        </div>
+    <a class="archive-card" href="recipe-arroz-con-pato.html">
+      <div class="archive-card-img-wrap">
+        <img src="../images/arroz-con-pato-hero.jpg" alt="Arroz con Pato — green cilantro rice with braised duck and salsa criolla" />
       </div>
-    </div>
-    <p class="card-date">Dragon Boat Festival · 2025</p>
-    <h3 class="card-title">Sticky Rice Dumplings</h3>
-    <p class="card-origin" style="font-style: italic;">China</p>
-  </a>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Las Fiestas Patrias · July 2025</span>
+        <span class="archive-card-name">Arroz con Pato</span>
+        <span class="archive-card-origin">Peru — Northern Peru (Chiclayo)</span>
+      </div>
+    </a>
 
+    <a class="archive-card" href="recipe-coca.html">
+      <div class="archive-card-img-wrap">
+        <img src="../images/coca-hero.jpg" alt="Coca de Sant Joan with caramelised pastry cream and toasted almonds" />
+      </div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Saint John's Eve · June 2025</span>
+        <span class="archive-card-name">Coca de Sant Joan</span>
+        <span class="archive-card-origin">Spain — Catalonia</span>
+      </div>
+    </a>
 
-</div>
+    <a class="archive-card" href="recipe-zongzi.html">
+      <div class="archive-card-img-wrap">
+        <img src="../images/zongzi-hero.jpg" alt="Freshly wrapped Zongzi" />
+      </div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Dragon Boat Festival · 2025</span>
+        <span class="archive-card-name">Sticky Rice Dumplings</span>
+        <span class="archive-card-origin">China — Ancient China</span>
+      </div>
+    </a>
 
-<hr class="divider">
+    <a class="archive-card archive-card--placeholder" href="#">
+      <div class="archive-card-img-wrap archive-card-img-placeholder">🥘</div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Eid al-Adha · June 2024</span>
+        <span class="archive-card-name">Lamb Tagine</span>
+        <span class="archive-card-origin">Morocco — Berber origins</span>
+      </div>
+    </a>
 
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <span class="footer-brand">Fork Through History</span>
-    <span class="footer-note">Correspondence: <a href="mailto:annasblogfth@gmail.com">annasblogfth@gmail.com</a></span>
-    <span class="footer-note">Updates every major holiday</span>
-  </div>
-</footer>
+    <a class="archive-card archive-card--placeholder" href="#">
+      <div class="archive-card-img-wrap archive-card-img-placeholder">🍜</div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Tết · February 2024</span>
+        <span class="archive-card-name">Phở Bò</span>
+        <span class="archive-card-origin">Vietnam — French colonial era</span>
+      </div>
+    </a>
 
-<script src="../js/main.js"></script>
+    <a class="archive-card archive-card--placeholder" href="#">
+      <div class="archive-card-img-wrap archive-card-img-placeholder">🫓</div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Easter · March 2024</span>
+        <span class="archive-card-name">Injera</span>
+        <span class="archive-card-origin">Ethiopia</span>
+      </div>
+    </a>
+
+    <a class="archive-card archive-card--placeholder" href="#">
+      <div class="archive-card-img-wrap archive-card-img-placeholder">🥟</div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">Nowruz · March 2024</span>
+        <span class="archive-card-name">Manti</span>
+        <span class="archive-card-origin">Turkey / Central Asia</span>
+      </div>
+    </a>
+
+    <a class="archive-card archive-card--placeholder" href="#">
+      <div class="archive-card-img-wrap archive-card-img-placeholder">🫕</div>
+      <div class="archive-card-body">
+        <span class="archive-card-occasion">New Year · January 2024</span>
+        <span class="archive-card-name">Borscht</span>
+        <span class="archive-card-origin">Ukraine</span>
+      </div>
+    </a>
+
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <p>Fork Through History &nbsp;·&nbsp; Correspondence: <a href="mailto:annasblogfth@gmail.com">annasblogfth@gmail.com</a> &nbsp;·&nbsp; Updates every major holiday</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/components.js"></script>
+
 </body>
 </html>
